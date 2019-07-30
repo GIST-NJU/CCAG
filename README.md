@@ -85,7 +85,7 @@ We have conducted an empirical comparative study to investigate the impact of di
 
 We used a well-known benchmark (as reported in [a previous study](https://ieeexplore.ieee.org/document/4564473/)) of constrained covering array generation as subject test models. The `NAME.model` (parameters and values) and `NAME.constraints` (constraints) files can be found in the **benchmark** directory; an explanation of their formats can be found [here](https://cse.unl.edu/~citportal/) (the same format of CASA tool). 
 
-In addition, in order to investigate the fault revelation ability of different algorithms, we constructed 100 k-way fault causing combinations at random for k = 3, 4, 5, and 6, respectively. These combinations can be found in the `NAME.corpus` file of each test model (each combination is represented as `#K, [INDEXES OF PARAMETERS], [VALUES OF PARAMETERS]`).
+In addition, in order to investigate the failure revelation ability of different algorithms, we constructed 100 k-way failure causing combinations at random for k = 3, 4, 5, and 6, respectively. These combinations can be found in the `NAME.corpus` file of each test model (each combination is represented as `#K, [INDEXES OF PARAMETERS], [VALUES OF PARAMETERS]`).
 
 #### Algorithms
 
@@ -95,4 +95,7 @@ Our experiment includes 21 generation algorithms, each of which is a particular 
 
 We generated the most widely used 2-way constrained covering arrays. For each test model, the execution of each algorithm is repeated 30 times. The test suites obtained can be found in the **data** directory (namely, each `ALGORITHM/HANDLER_MODEL.txt` file contains 30 covering arrays).
 
-The tables that show sizes of covering arrays, computational costs, and proportions of fault detected by variants of each generation algorithm can be found in the [wiki page](https://github.com/GIST-NJU/CCAG/wiki) of this project.
+The tables that show sizes of covering arrays, computational costs, and proportions of 
+
+
+detected by variants of each generation algorithm can be found in the [wiki page](https://github.com/GIST-NJU/CCAG/wiki) of this project.
