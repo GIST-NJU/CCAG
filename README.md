@@ -95,7 +95,4 @@ Our experiment includes 21 generation algorithms, each of which is a particular 
 
 We generated the most widely used 2-way constrained covering arrays. For each test model, the execution of each algorithm is repeated 30 times. The test suites obtained can be found in the **data** directory (namely, each `ALGORITHM/HANDLER_MODEL.txt` file contains 30 covering arrays).
 
-The tables that show sizes of covering arrays, computational costs, and proportions of 
-
-
-detected by variants of each generation algorithm can be found in the [wiki page](https://github.com/GIST-NJU/CCAG/wiki) of this project.
+The tables that show sizes of covering arrays, computational costs, and proportions of detected by variants of each generation algorithm can be found in the [wiki page](https://github.com/GIST-NJU/CCAG/wiki) of this project.
